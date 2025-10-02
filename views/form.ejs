@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>New Message</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+  </head>
+  <body>
+    <h1>Add a New Message</h1>
+
+    <form method="POST" action="/new">
+      <p>
+        <input type="text" name="username" placeholder="Your name" required>
+      </p>
+      <p>
+        <textarea name="messageText" placeholder="Your message" required></textarea>
+      </p>
+      <button type="submit">Send</button>
+    </form>
+
+    <a class="button" href="/">Back to messages</a>
+  </body>
+</html>
